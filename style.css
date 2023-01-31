@@ -1,0 +1,124 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url("IMG_2547.jpg");
+    margin: auto;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    /*justify-content: center;*/
+    /*justify-content: space-evenly;*/
+    align-content: flex-start;
+    margin-left: 5em;
+    margin-top: 2.5em;
+    color:white;
+    size: 5em;
+    font-style: italic;
+}
+
+.nv {
+    margin-right: 1.5em
+}
+
+/*.nv:hover {
+    box-shadow: inset 100px 0 0 0 #ffffff;
+    color: black;
+}*/
+
+#ta {
+    width: 20em
+}
+
+.mainsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    color: white;
+    font-size: 3.5vh;
+}
+
+h1 {
+    font-size: 5.5em;
+    font-style: oblique;
+    font-weight: 50;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+h2 {
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 35;
+}
+h3 {
+    font-size: 1em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 30;
+}
+
+
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 4.5em;
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: darkkhaki;
+}
+
+a:active {
+    color: blue;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4em;
+    color: white;
+    font-style: italic;
+
+}
+
+footer div {
+    margin-right: 4em;
+    margin-bottom: 3em;
+}
+
+.hyphen {
+    display: flex;
+    background-color: #ffffff;
+    width: 30px;
+    height: 3px;
+    margin-top: 0.5em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
